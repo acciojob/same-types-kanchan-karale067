@@ -8,11 +8,6 @@ function isSameType(value1, value2) {
     return typeof value1 === typeof value2;
 }
 
-// Test examples
-console.log(isSameType(1, 3));         // true (both are numbers)
-console.log(isSameType("hey", "hello"));// true (both are strings)
-console.log(isSameType(NaN, NaN));      // true (both are NaN)
-console.log(isSameType("3", 3));        // false (one is a string, one is a number)
 
 
 // do not change the code below.
